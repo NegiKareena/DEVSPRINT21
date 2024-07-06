@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import Login from "./Login";
+import { useAuth } from "../src/context/AuthProvider";
 
  function Navbar() {
   const [theme, setTheme] = useState(
